@@ -1,0 +1,47 @@
+/*==Meal pork=====*/
+#MealPork{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+    flex-direction: column;
+}
+.Mealpork-container{
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.04);
+}
+.Mealpork-box{
+    position: relative;
+    padding: 20px;
+}
+.Mealpork-box img{
+     width: 320px;
+    height: 320px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0,0.04);
+    transition: all ease 0.3s;
+}
+.Mealpork-box span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #2c2b2b;
+    text-transform: uppercase;
+}
+
+    .category-box1:hover img{
+    transform: scale(1.02);
+    transition: all ease;
+    box-shadow:2px 2px 30px rgba(0,0,0,0.05);
+    }
